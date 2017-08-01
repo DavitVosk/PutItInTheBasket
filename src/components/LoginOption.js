@@ -20,7 +20,7 @@ class LoginOption extends Component {
 						Login As
 					</Text>
 
-					<Button onPress={()=> Actions.loginPatient({type: 'reset'})}>
+					<Button onPress={()=> Actions.patientLoginForm({type: 'reset'})}>
 						Patient
 					</Button>
 

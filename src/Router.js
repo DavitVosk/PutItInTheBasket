@@ -1,7 +1,8 @@
 import React from 'react';
 import { Router, Scene } from 'react-native-router-flux';
 import LoginOption from './components/LoginOption';
-import LoginPatient from './components/LoginPatient';
+import PatientLoginForm from './components/PatientLoginForm';
+import PatientOrderFillingForm from './components/PatientOrderFillingForm';
 
 const commonProps = {
 	hideNavBar: true,
@@ -10,7 +11,8 @@ const commonProps = {
 // key => component parent
 const ScenesStructure = {
 	loginOption: { component: LoginOption, ...commonProps },
-	loginPatient: { component: LoginPatient, ...commonProps },
+	patientLoginForm: { component: PatientLoginForm, ...commonProps },
+	patientOrder: { component: PatientOrderFillingForm, ...commonProps },
 };
 
 const Scenes = [];

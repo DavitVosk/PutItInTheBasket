@@ -49,7 +49,7 @@ class LoginPatient extends Component {
 
 					{checkbox}
 
-					<Button> Go! </Button>
+					<Button onPress={()=> Actions.patientOrder({type: 'reset'})}> Go! </Button>
 
 					{signUpProposal}
 				</View>
