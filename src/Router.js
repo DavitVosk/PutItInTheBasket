@@ -10,6 +10,7 @@ const commonProps = {
 // key => component parent
 const ScenesStructure = {
 	loginOption: { component: LoginOption, ...commonProps },
+	loginPatient: { component: LoginPatient, ...commonProps },
 };
 
 const Scenes = [];

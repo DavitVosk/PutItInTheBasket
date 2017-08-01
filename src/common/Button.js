@@ -21,7 +21,7 @@ const styles = {
 	textStyle: {
 		alignSelf: 'stretch',
 		textAlign: 'center',
-		color: '#dcdcdc',
+		color: 'white',
 		fontSize: 18,
 		fontWeight: '800',
 		paddingTop: 10,

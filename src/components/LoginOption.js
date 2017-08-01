@@ -20,7 +20,7 @@ class LoginOption extends Component {
 						Login As
 					</Text>
 
-					<Button onPress={()=> Actions.}>
+					<Button onPress={()=> Actions.loginPatient({type: 'reset'})}>
 						Patient
 					</Button>
 
@@ -37,7 +37,6 @@ const styles = {
 	image: { height: 250, width: devWidth },
 	text: { textAlign: 'center', fontSize: 22, color:'black'  },
 	loginOptionContainer: {flex: 1, marginTop: 40, },
-	c: { borderWidth: 1, borderColor: 'red' }
 };
 
 export default LoginOption;
